@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="koo_memo.css">
+    <script src="./koo_memo.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Bonheur+Royale&display=swap" rel="stylesheet">
+    <title>Schedule</title>
+</head>
+<body>
+    <div class="memo">
+        <h1 class="title" style="font-family: 'Bonheur Royale', cursive; font-size: 40px;"><span>S</span> <span>c</span> <span>h</span> <span>e</span> <span>d</span> <span>u</span> <span>l</span> <span>e</span></h1>
+        <hr>
+        <div class="days">
+            <div title="sun">일</div>
+            <div title="mon">월</div>
+            <div title="tue">화</div>
+            <div title="wed">수</div>
+            <div title="thur">목</div>
+            <div title="fri">금</div>
+            <div title="sat">토</div>
+        </div>
+        <div class="schedule_li">
+            <h2></h2>
+            <hr width="350px">
+            <ul class="schedule_li">
+                    
+
+            </ul>
+        </div>
+        <form name="insert">
+            <input type="time" class="add_time" value="09:00">
+            <input type="text" class="add_text" placeholder="스케줄 적는 곳" maxlength="15">
+            <button type="button" class="add_Btn" onclick="addSchedule()">추가</button>
+        </form>
+    </div>
+</body>
+</html>
